@@ -1,0 +1,29 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "cross-env NODE_ENV=production electron-packager . dist/test --platform=darwin"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "cross-env": "^5.1.4",
+    "electron": "~1.8.2",
+    "electron-packager": "^11.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.15"
+  }
+}
